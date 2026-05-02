@@ -17,6 +17,10 @@ archive_private/
 # Large regenerated artifacts
 data/
 artifacts/
+!data/
+!artifacts/
+!data/.gitkeep
+!artifacts/.gitkeep
 
 # Optional local output clutter
 outputs/logs/
