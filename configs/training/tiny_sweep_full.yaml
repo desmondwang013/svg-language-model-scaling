@@ -1,0 +1,24 @@
+model:
+  name: tiny_sweep_full
+  d_model: 128
+  n_layers: 4
+  n_heads: 4
+  d_ff: 512
+  context_length: 256
+  dropout: 0.1
+
+optimizer:
+  name: adamw
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+
+training:
+  batch_size_tokens: 8192
+  warmup_steps: 20
+  epochs: 1
+  grad_clip_norm: 1.0
+  seed: 42
+  eval_steps: 20
+  val_batches: 6
+  max_steps: 60

@@ -1,0 +1,15 @@
+huggingface_hub
+datasets
+lxml
+sentencepiece
+tokenizers
+mup
+numpy
+matplotlib
+scipy
+torch
+tqdm
+pyyaml
+cairosvg
+pillow
+pypdf

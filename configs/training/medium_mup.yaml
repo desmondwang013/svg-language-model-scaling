@@ -1,0 +1,34 @@
+model:
+  name: medium_mup
+  d_model: 384
+  n_layers: 6
+  n_heads: 6
+  d_ff: 1536
+  context_length: 1024
+  dropout: 0.1
+  use_mup: true
+
+optimizer:
+  name: muadamw
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+
+training:
+  batch_size_tokens: 8192
+  warmup_steps: 500
+  epochs: 1
+  grad_clip_norm: 1.0
+  seed: 42
+  eval_steps: 100
+  val_batches: 8
+
+mup:
+  base:
+    d_model: 192
+    n_heads: 3
+    d_ff: 768
+  delta:
+    d_model: 384
+    n_heads: 6
+    d_ff: 1536

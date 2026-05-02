@@ -1,0 +1,7 @@
+tokenizer:
+  backend: hf_tokenizers
+  model_type: bpe
+  vocab_size: 4096
+  bos: true
+  eos: true
+  pad: false

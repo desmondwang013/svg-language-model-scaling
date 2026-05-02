@@ -1,0 +1,8 @@
+{
+  "run_name": "mup_family_h100_b196608_tiny_mup",
+  "total_steps": 679,
+  "num_parameters": 1972992,
+  "model_name": "tiny_mup",
+  "batch_size_tokens": 196608,
+  "device": "cuda"
+}

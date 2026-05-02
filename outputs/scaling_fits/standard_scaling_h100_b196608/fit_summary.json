@@ -1,0 +1,112 @@
+{
+  "family_summary": "outputs/standard_family/standard_family_h100_b196608/summary.json",
+  "family_name": "standard_family_h100_b196608",
+  "learning_rate": 0.001,
+  "fit_function": "L = a * N^-alpha + c",
+  "parameters": {
+    "a": 213.30644374749596,
+    "alpha": 0.3871232561971795,
+    "c": 0.8674066958129424
+  },
+  "covariance": [
+    [
+      25329.23670609952,
+      9.055065786503942,
+      9.818541252061262
+    ],
+    [
+      9.055065786503942,
+      0.003242175175212522,
+      0.0035460704060685136
+    ],
+    [
+      9.818541252061264,
+      0.003546070406068514,
+      0.004119508286100812
+    ]
+  ],
+  "r2": 0.9982729451149498,
+  "results": [
+    {
+      "model_name": "tiny",
+      "config_path": "/workspace/ML_SVGProject/configs/training/tiny.yaml",
+      "run_name": "standard_family_h100_b196608_tiny",
+      "num_parameters": 1448704,
+      "final_val_loss": 1.742180496454239,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_tiny/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_tiny/model.pt",
+      "elapsed_seconds": 43.148680448532104,
+      "avg_tokens_per_second": 3463522.5531775975,
+      "peak_gpu_memory_mb": 13048.11376953125
+    },
+    {
+      "model_name": "small",
+      "config_path": "/workspace/ML_SVGProject/configs/training/small.yaml",
+      "run_name": "standard_family_h100_b196608_small",
+      "num_parameters": 3652608,
+      "final_val_loss": 1.4950013756752014,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_small/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_small/model.pt",
+      "elapsed_seconds": 62.77959704399109,
+      "avg_tokens_per_second": 2250861.983070817,
+      "peak_gpu_memory_mb": 17623.44189453125
+    },
+    {
+      "model_name": "medium",
+      "config_path": "/workspace/ML_SVGProject/configs/training/medium.yaml",
+      "run_name": "standard_family_h100_b196608_medium",
+      "num_parameters": 12613632,
+      "final_val_loss": 1.2302839159965515,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_medium/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_medium/model.pt",
+      "elapsed_seconds": 88.37572622299194,
+      "avg_tokens_per_second": 1590646.9232731552,
+      "peak_gpu_memory_mb": 25988.89794921875
+    },
+    {
+      "model_name": "large",
+      "config_path": "/workspace/ML_SVGProject/configs/training/large.yaml",
+      "run_name": "standard_family_h100_b196608_large",
+      "num_parameters": 34146304,
+      "final_val_loss": 1.134374350309372,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_large/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_large/model.pt",
+      "elapsed_seconds": 166.33627319335938,
+      "avg_tokens_per_second": 833322.853310502,
+      "peak_gpu_memory_mb": 46027.84326171875
+    },
+    {
+      "model_name": "xl",
+      "config_path": "/workspace/ML_SVGProject/configs/training/xl.yaml",
+      "run_name": "standard_family_h100_b196608_xl",
+      "num_parameters": 88988160,
+      "final_val_loss": 1.045932188630104,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_xl/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/standard_family_h100_b196608_xl/model.pt",
+      "elapsed_seconds": 311.90087842941284,
+      "avg_tokens_per_second": 439190.42717745004,
+      "peak_gpu_memory_mb": 75570.22021484375
+    }
+  ],
+  "predicted_losses": [
+    1.7463188457769587,
+    1.4818300391416295,
+    1.247686806910793,
+    1.1260322480658624,
+    1.0459043853019043
+  ],
+  "max_trained_parameters": 88988160.0,
+  "extrapolated_parameters_10x": 889881600.0,
+  "extrapolated_loss_10x": 0.9406064028128353,
+  "extrapolated_loss_10x_ci": {
+    "p2_5": 0.8190705897771391,
+    "p50": 0.9424845550492174,
+    "p97_5": 1.0132652994366937,
+    "sample_count": 4548
+  }
+}

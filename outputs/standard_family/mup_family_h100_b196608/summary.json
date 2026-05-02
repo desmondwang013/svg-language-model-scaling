@@ -1,0 +1,72 @@
+{
+  "family_name": "mup_family_h100_b196608",
+  "learning_rate": 0.001,
+  "total_elapsed_seconds": 683.1639091968536,
+  "results": [
+    {
+      "model_name": "tiny_mup",
+      "config_path": "configs/training/tiny_mup.yaml",
+      "run_name": "mup_family_h100_b196608_tiny_mup",
+      "num_parameters": 1972992,
+      "final_val_loss": 1.8319914638996124,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_tiny_mup/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_tiny_mup/model.pt",
+      "elapsed_seconds": 43.25258016586304,
+      "avg_tokens_per_second": 3431947.5758374874,
+      "peak_gpu_memory_mb": 13055.08837890625
+    },
+    {
+      "model_name": "small_mup",
+      "config_path": "configs/training/small_mup.yaml",
+      "run_name": "mup_family_h100_b196608_small_mup",
+      "num_parameters": 4439040,
+      "final_val_loss": 1.6464135646820068,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_small_mup/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_small_mup/model.pt",
+      "elapsed_seconds": 65.39826035499573,
+      "avg_tokens_per_second": 2231542.229087717,
+      "peak_gpu_memory_mb": 17631.90478515625
+    },
+    {
+      "model_name": "medium_mup",
+      "config_path": "configs/training/medium_mup.yaml",
+      "run_name": "mup_family_h100_b196608_medium_mup",
+      "num_parameters": 14186496,
+      "final_val_loss": 1.3668821156024933,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_medium_mup/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_medium_mup/model.pt",
+      "elapsed_seconds": 89.3686192035675,
+      "avg_tokens_per_second": 1574586.130492679,
+      "peak_gpu_memory_mb": 26006.11083984375
+    },
+    {
+      "model_name": "large_mup",
+      "config_path": "configs/training/large_mup.yaml",
+      "run_name": "mup_family_h100_b196608_large_mup",
+      "num_parameters": 36243456,
+      "final_val_loss": 1.257274642586708,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_large_mup/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_large_mup/model.pt",
+      "elapsed_seconds": 169.12505531311035,
+      "avg_tokens_per_second": 825997.6065386493,
+      "peak_gpu_memory_mb": 46051.78271484375
+    },
+    {
+      "model_name": "xl_mup",
+      "config_path": "configs/training/xl_mup.yaml",
+      "run_name": "mup_family_h100_b196608_xl_mup",
+      "num_parameters": 92133888,
+      "final_val_loss": 1.1400954872369766,
+      "learning_rate": 0.001,
+      "summary_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_xl_mup/summary.json",
+      "model_path": "/workspace/ML_SVGProject/outputs/training_runs/mup_family_h100_b196608_xl_mup/model.pt",
+      "elapsed_seconds": 315.79501605033875,
+      "avg_tokens_per_second": 435886.0225402862,
+      "peak_gpu_memory_mb": 75607.64794921875
+    }
+  ]
+}

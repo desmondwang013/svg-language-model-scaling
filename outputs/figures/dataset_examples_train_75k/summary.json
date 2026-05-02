@@ -1,0 +1,56 @@
+{
+  "split_path": "/home/desmo/code/ML_SVGProject/data/processed/starvector__svg_icons_simple__plus__starvector__svg_fonts_simple__maxrows_75000__stream/train.jsonl",
+  "field": "estimated_tokens",
+  "count": 6,
+  "examples": [
+    {
+      "index": 0,
+      "source_id": "6404",
+      "estimated_tokens": 82,
+      "char_length": 253,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_00.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_00.png"
+    },
+    {
+      "index": 1,
+      "source_id": "17535072230655653154_b_lower",
+      "estimated_tokens": 191,
+      "char_length": 872,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_01.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_01.png"
+    },
+    {
+      "index": 2,
+      "source_id": "12953661116577890514_u_lower",
+      "estimated_tokens": 256,
+      "char_length": 1266,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_02.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_02.png"
+    },
+    {
+      "index": 3,
+      "source_id": "77243",
+      "estimated_tokens": 386,
+      "char_length": 1676,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_03.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_03.png"
+    },
+    {
+      "index": 4,
+      "source_id": "56278",
+      "estimated_tokens": 676,
+      "char_length": 3060,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_04.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_04.png"
+    },
+    {
+      "index": 5,
+      "source_id": "51604",
+      "estimated_tokens": 2048,
+      "char_length": 9101,
+      "svg_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_05.svg",
+      "png_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/example_05.png"
+    }
+  ],
+  "grid_path": "/home/desmo/code/ML_SVGProject/outputs/figures/dataset_examples_train_75k/dataset_examples_grid.png"
+}

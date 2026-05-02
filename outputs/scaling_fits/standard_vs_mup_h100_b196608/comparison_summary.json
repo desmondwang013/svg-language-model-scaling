@@ -1,0 +1,10 @@
+{
+  "standard_fit": "outputs/scaling_fits/standard_scaling_h100_b196608/fit_summary.json",
+  "mup_fit": "outputs/scaling_fits/mup_scaling_h100_b196608/fit_summary.json",
+  "standard_alpha": 0.3871232561971795,
+  "mup_alpha": 0.2756962460476026,
+  "standard_r2": 0.9982729451149498,
+  "mup_r2": 0.996495527992535,
+  "standard_extrapolated_loss_10x": 0.9406064028128353,
+  "mup_extrapolated_loss_10x": 0.9646897479831715
+}

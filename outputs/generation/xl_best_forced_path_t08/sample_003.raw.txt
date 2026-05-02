@@ -1,0 +1,1 @@
+M. 18.8 L11.6 L11 L11.1 L11.2 C11.865624904632568 16.6 11.5 C15.7.3 L13.6.5 L13.1 6.6 L7 8.4 L11.8 L10.6 10.1 8.3"></path fill="0 L13.6 L6 10.7.5" d="0" filling="0" d="1 L15.2 L16.1" d="1.9 L17.6 L5 L1" stroke-width="none" filling="0" stroke-opacity="0" filling="0.2 16.6 11.9 C5 L10.8.7.3" stroke-width="0" stroke-width="0" stroke-opacity="0.1" stroke="0.6 17.7 L11.8 11.6 L9

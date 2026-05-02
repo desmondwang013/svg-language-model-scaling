@@ -1,0 +1,8 @@
+{
+  "run_name": "standard_family_h100_b196608_tiny",
+  "total_steps": 679,
+  "num_parameters": 1448704,
+  "model_name": "tiny",
+  "batch_size_tokens": 196608,
+  "device": "cuda"
+}

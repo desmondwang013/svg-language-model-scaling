@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.venv_linux/
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private working materials
+archive_private/
+
+# Large regenerated artifacts
+data/
+artifacts/
+
+# Optional local output clutter
+outputs/logs/
+outputs/samples/
+
+# If future experiments are rerun locally, keep new bulky outputs out by default
+outputs/training_runs/*
+!outputs/training_runs/standard_family_h100_b196608_tiny/
+!outputs/training_runs/standard_family_h100_b196608_tiny/**
+!outputs/training_runs/mup_family_h100_b196608_tiny_mup/
+!outputs/training_runs/mup_family_h100_b196608_tiny_mup/**

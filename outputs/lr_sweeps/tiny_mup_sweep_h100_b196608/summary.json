@@ -1,0 +1,42 @@
+{
+  "sweep_name": "tiny_mup_sweep_h100_b196608",
+  "training_config": "configs/training/tiny_mup.yaml",
+  "results": [
+    {
+      "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_1e-04",
+      "learning_rate": 0.0001,
+      "final_val_loss": 4.54352343082428,
+      "num_parameters": 1972992
+    },
+    {
+      "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_3e-04",
+      "learning_rate": 0.0003,
+      "final_val_loss": 2.541278123855591,
+      "num_parameters": 1972992
+    },
+    {
+      "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_5e-04",
+      "learning_rate": 0.0005,
+      "final_val_loss": 2.241593688726425,
+      "num_parameters": 1972992
+    },
+    {
+      "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_8e-04",
+      "learning_rate": 0.0008,
+      "final_val_loss": 1.9685378074645996,
+      "num_parameters": 1972992
+    },
+    {
+      "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_1e-03",
+      "learning_rate": 0.001,
+      "final_val_loss": 1.8640158921480179,
+      "num_parameters": 1972992
+    }
+  ],
+  "best_run": {
+    "run_name": "tiny_mup_sweep_h100_b196608_tiny_mup_1e-03",
+    "learning_rate": 0.001,
+    "final_val_loss": 1.8640158921480179,
+    "num_parameters": 1972992
+  }
+}

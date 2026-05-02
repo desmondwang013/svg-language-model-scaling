@@ -1,0 +1,21 @@
+{
+  "run_name": "standard_family_h100_b196608_tiny",
+  "device": "cuda",
+  "parameterization": "standard",
+  "num_parameters": 1448704,
+  "total_steps": 679,
+  "epochs": 1,
+  "steps_per_epoch": 679,
+  "batch_size_sequences": 192,
+  "batch_size_tokens": 196608,
+  "context_length": 1024,
+  "learning_rate": 0.001,
+  "final_val_loss": 1.742180496454239,
+  "train_tokens_total": 133464477,
+  "tokens_per_epoch": 133464064,
+  "epoch_fraction_completed": 1.0,
+  "strict_epoch_traversal": true,
+  "total_elapsed_seconds": 38.53419804573059,
+  "avg_tokens_per_second": 3463522.5531775975,
+  "peak_gpu_memory_mb": 13048.11376953125
+}

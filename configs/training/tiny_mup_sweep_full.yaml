@@ -1,0 +1,35 @@
+model:
+  name: tiny_mup_sweep_full
+  d_model: 128
+  n_layers: 4
+  n_heads: 4
+  d_ff: 512
+  context_length: 256
+  dropout: 0.1
+  use_mup: true
+
+optimizer:
+  name: muadamw
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+
+training:
+  batch_size_tokens: 8192
+  warmup_steps: 20
+  epochs: 1
+  grad_clip_norm: 1.0
+  seed: 42
+  eval_steps: 20
+  val_batches: 6
+  max_steps: 60
+
+mup:
+  base:
+    d_model: 64
+    n_heads: 2
+    d_ff: 256
+  delta:
+    d_model: 128
+    n_heads: 4
+    d_ff: 512
